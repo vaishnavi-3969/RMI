@@ -11,7 +11,7 @@ public class Server {
             r.rebind("Calculator", new Calculator());
             System.out.println("Server is Running....");
         } catch (Exception e) {
-            System.out.println(e);
+            e.printStackTrace();
         }
     }
 }
